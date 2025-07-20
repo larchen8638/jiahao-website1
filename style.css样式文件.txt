@@ -1,0 +1,210 @@
+/* --- 重置默认样式 --- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #0f1624; /* 深蓝黑色调，科技感 */
+  color: #e0e6f3; /* 浅灰蓝色，易读 */
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* --- 头部 --- */
+header {
+  background-color: #141d2f;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.7);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+header h1 {
+  color: #33c9ff;
+  font-weight: 700;
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.8rem;
+}
+
+nav ul li a {
+  color: #a3b1c6;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+  color: #33c9ff;
+  outline: none;
+}
+
+/* --- 页面标题区 --- */
+.page-title {
+  padding: 2rem 2rem 1rem;
+  border-bottom: 2px solid #33c9ff;
+  margin-bottom: 2rem;
+}
+
+.page-title h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #33c9ff;
+}
+
+/* --- 首页 Hero 区 --- */
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: linear-gradient(135deg, #0f1624 0%, #1a253f 100%);
+  margin-bottom: 3rem;
+}
+
+.hero h2 {
+  font-size: 2.6rem;
+  color: #33c9ff;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #b0c8e0;
+  max-width: 600px;
+  margin: 0 auto 2rem;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #33c9ff;
+  color: #0f1624;
+  padding: 0.8rem 2.2rem;
+  font-weight: 700;
+  border-radius: 40px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  box-shadow: 0 4px 15px rgba(51,201,255,0.7);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cta-button:hover,
+.cta-button:focus {
+  background-color: #1bb0ff;
+  box-shadow: 0 6px 20px rgba(27,176,255,0.9);
+  outline: none;
+}
+
+/* --- 首页三大特点区 --- */
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  padding: 0 2rem 3rem;
+  flex-wrap: wrap;
+}
+
+.feature {
+  background-color: #192a4b;
+  padding: 2rem;
+  border-radius: 12px;
+  width: 280px;
+  box-shadow: 0 0 15px rgba(51,201,255,0.3);
+  transition: transform 0.3s ease;
+}
+
+.feature:hover,
+.feature:focus-within {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 30px rgba(51,201,255,0.6);
+}
+
+.feature h3 {
+  color: #33c9ff;
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+}
+
+.feature p {
+  color: #c1d0ea;
+  font-size: 1rem;
+}
+
+/* --- 公司介绍页面 --- */
+.about-content {
+  padding: 0 2rem 4rem;
+  max-width: 900px;
+  margin: 0 auto 4rem;
+}
+
+.about-content h3 {
+  color: #33c9ff;
+  margin-bottom: 0.8rem;
+  font-size: 1.6rem;
+}
+
+.about-content p,
+.about-content ul {
+  margin-bottom: 1.5rem;
+  color: #c1d0ea;
+  font-size: 1.05rem;
+}
+
+.about-content ul {
+  list-style: disc inside;
+  padding-left: 1rem;
+}
+
+/* --- 客户案例页面 --- */
+.projects {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  padding: 0 2rem 4rem;
+}
+
+.project-card {
+  background-color: #192a4b;
+  border-radius: 12px;
+  width: 300px;
+  box-shadow: 0 0 15px rgba(51,201,255,0.3);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.project-card:hover,
+.project-card:focus-within {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 35px rgba(51,201,255,0.7);
+}
+
+.project-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+}
+
+.project-card h3 {
+  color: #33c9ff;
+  margin: 1rem;
+  font-size: 1.3rem;
+}
+
+.project-card p {
+  margin: 0 1rem 1.2rem;
+  color: #

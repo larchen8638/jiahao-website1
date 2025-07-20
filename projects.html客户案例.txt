@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>客户案例 | 家豪建筑工程有限公司</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <h1>家豪建筑工程有限公司</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">首页</a></li>
+        <li><a href="about.html">公司介绍</a></li>
+        <li><a href="projects.html">客户案例</a></li>
+        <li><a href="contact.html">联系我们</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="page-title">
+    <h2>客户案例</h2>
+  </section>
+
+  <section class="projects">
+    <div class="project-card">
+      <img src="images/project1.jpg" alt="商业大楼工程" />
+      <h3>纽约市中心商业综合体</h3>
+      <p>为知名开发商承建，包含地下三层及地上25层钢结构商业办公大楼，项目周期14个月。</p>
+    </div>
+
+    <div class="project-card">
+      <img src="images/project2.jpg" alt="高速公路项目" />
+      <h3>I-95 高速公路扩建</h3>
+      <p>参与高速公路桥梁与排水系统施工，保障工程进度和安全标准，获得政府客户嘉奖。</p>
+    </div>
+
+    <div class="project-card">
+      <img src="images/project3.jpg" alt="高端住宅区" />
+      <h3>长岛高端住宅社区基础设施</h3>
+      <p>为私人开发项目提供场地平整、基础与排水系统施工，工期严格控制，客户满意度极高。</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 家豪建筑工程有限公司 | 88 Pine St, New York, NY</p>
+  </footer>
+
+  <!-- 在线客服代码开始 -->
+  <script type="text/javascript">
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+  s1.async=true;
+  s1.src='https://embed.tawk.to/1234567890abcdef12345678/default';
+  s1.charset='UTF-8';
+  s1.setAttribute('crossorigin','*');
+  s0.parentNode.insertBefore(s1,s0);
+  })();
+  </script>
+  <!-- 在线客服代码结束 -->
+
+</body>
+</html>

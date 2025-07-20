@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>家豪建筑工程有限公司</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <h1>家豪建筑工程有限公司</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">首页</a></li>
+        <li><a href="about.html">公司介绍</a></li>
+        <li><a href="projects.html">客户案例</a></li>
+        <li><a href="contact.html">联系我们</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>专注土木工程建设</h2>
+    <p>为总包商、开发商和住宅客户提供高效可靠的工程解决方案。</p>
+    <a href="contact.html" class="cta-button">联系我们</a>
+  </section>
+
+  <section class="features">
+    <div class="feature">
+      <h3>土木工程</h3>
+      <p>桥梁、道路、基础设施建设，品质保障。</p>
+    </div>
+    <div class="feature">
+      <h3>专业团队</h3>
+      <p>经验丰富的工程师与项目经理，项目交付准时高效。</p>
+    </div>
+    <div class="feature">
+      <h3>客户为先</h3>
+      <p>私人住宅与企业客户皆享高质量服务。</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 家豪建筑工程有限公司 | 88 Pine St, New York, NY</p>
+  </footer>
+
+  <!-- 在线客服代码开始 -->
+  <script type="text/javascript">
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+  s1.async=true;
+  s1.src='https://embed.tawk.to/1234567890abcdef12345678/default';
+  s1.charset='UTF-8';
+  s1.setAttribute('crossorigin','*');
+  s0.parentNode.insertBefore(s1,s0);
+  })();
+  </script>
+  <!-- 在线客服代码结束 -->
+
+</body>
+</html>
